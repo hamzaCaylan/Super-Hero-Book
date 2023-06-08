@@ -8,21 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4025F1A02A31C51F00E6C8E7 /* SuperHeroBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F19F2A31C51F00E6C8E7 /* SuperHeroBookApp.swift */; };
-		4025F1A22A31C51F00E6C8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F1A12A31C51F00E6C8E7 /* ContentView.swift */; };
+		4025F1A22A31C51F00E6C8E7 /* MyListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F1A12A31C51F00E6C8E7 /* MyListeView.swift */; };
 		4025F1A42A31C52000E6C8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4025F1A32A31C52000E6C8E7 /* Assets.xcassets */; };
 		4025F1A72A31C52000E6C8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4025F1A62A31C52000E6C8E7 /* Preview Assets.xcassets */; };
 		4025F1AE2A31C5B900E6C8E7 /* SuperHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */; };
 		4025F1B02A31CA3400E6C8E7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F1AF2A31CA3400E6C8E7 /* MapView.swift */; };
+		404885432A31D26E00E55BC5 /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404885422A31D26E00E55BC5 /* DetayView.swift */; };
+		404885452A31D43600E55BC5 /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404885442A31D43600E55BC5 /* OzelGorselView.swift */; };
+		404885472A31E55500E55BC5 /* ListeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404885462A31E55500E55BC5 /* ListeItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4025F19C2A31C51F00E6C8E7 /* SuperHeroBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4025F19F2A31C51F00E6C8E7 /* SuperHeroBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroBookApp.swift; sourceTree = "<group>"; };
-		4025F1A12A31C51F00E6C8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4025F1A12A31C51F00E6C8E7 /* MyListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListeView.swift; sourceTree = "<group>"; };
 		4025F1A32A31C52000E6C8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4025F1A62A31C52000E6C8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroModel.swift; sourceTree = "<group>"; };
 		4025F1AF2A31CA3400E6C8E7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		404885422A31D26E00E55BC5 /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		404885442A31D43600E55BC5 /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
+		404885462A31E55500E55BC5 /* ListeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				4025F19F2A31C51F00E6C8E7 /* SuperHeroBookApp.swift */,
-				4025F1A12A31C51F00E6C8E7 /* ContentView.swift */,
+				4025F1A12A31C51F00E6C8E7 /* MyListeView.swift */,
+				404885442A31D43600E55BC5 /* OzelGorselView.swift */,
+				404885422A31D26E00E55BC5 /* DetayView.swift */,
+				4025F1AF2A31CA3400E6C8E7 /* MapView.swift */,
+				4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */,
 				4025F1A32A31C52000E6C8E7 /* Assets.xcassets */,
 				4025F1A52A31C52000E6C8E7 /* Preview Content */,
-				4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */,
-				4025F1AF2A31CA3400E6C8E7 /* MapView.swift */,
+				404885462A31E55500E55BC5 /* ListeItemView.swift */,
 			);
 			path = SuperHeroBook;
 			sourceTree = "<group>";
@@ -143,9 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404885452A31D43600E55BC5 /* OzelGorselView.swift in Sources */,
+				404885432A31D26E00E55BC5 /* DetayView.swift in Sources */,
 				4025F1AE2A31C5B900E6C8E7 /* SuperHeroModel.swift in Sources */,
 				4025F1B02A31CA3400E6C8E7 /* MapView.swift in Sources */,
-				4025F1A22A31C51F00E6C8E7 /* ContentView.swift in Sources */,
+				4025F1A22A31C51F00E6C8E7 /* MyListeView.swift in Sources */,
+				404885472A31E55500E55BC5 /* ListeItemView.swift in Sources */,
 				4025F1A02A31C51F00E6C8E7 /* SuperHeroBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
