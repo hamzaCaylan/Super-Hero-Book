@@ -12,6 +12,7 @@
 		4025F1A42A31C52000E6C8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4025F1A32A31C52000E6C8E7 /* Assets.xcassets */; };
 		4025F1A72A31C52000E6C8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4025F1A62A31C52000E6C8E7 /* Preview Assets.xcassets */; };
 		4025F1AE2A31C5B900E6C8E7 /* SuperHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */; };
+		4025F1B02A31CA3400E6C8E7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4025F1AF2A31CA3400E6C8E7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4025F1A32A31C52000E6C8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4025F1A62A31C52000E6C8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroModel.swift; sourceTree = "<group>"; };
+		4025F1AF2A31CA3400E6C8E7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				4025F1A32A31C52000E6C8E7 /* Assets.xcassets */,
 				4025F1A52A31C52000E6C8E7 /* Preview Content */,
 				4025F1AD2A31C5B900E6C8E7 /* SuperHeroModel.swift */,
+				4025F1AF2A31CA3400E6C8E7 /* MapView.swift */,
 			);
 			path = SuperHeroBook;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4025F1AE2A31C5B900E6C8E7 /* SuperHeroModel.swift in Sources */,
+				4025F1B02A31CA3400E6C8E7 /* MapView.swift in Sources */,
 				4025F1A22A31C51F00E6C8E7 /* ContentView.swift in Sources */,
 				4025F1A02A31C51F00E6C8E7 /* SuperHeroBookApp.swift in Sources */,
 			);
